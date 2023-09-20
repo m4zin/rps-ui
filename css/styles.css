@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: #E1D9D1;
+}
+
+.rpc-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    height: 500px;
+    justify-content: space-between;
+}
+
+.heading p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.rpc-body .player-text-computer {
+    display: flex;
+    width: 1200px;
+    justify-content: space-around;
+}
+
+.rpc-body .player-text-computer .player,
+.rpc-body .player-text-computer .computer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.rpc-body .player-text-computer .text {
+    align-self: center;
+}
+
+.rpc-body .player-text-computer .text p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.rpc-body .player-text-computer .player img,
+.rpc-body .player-text-computer .computer img {
+    height: 175px;
+    width: 175px;
+}
+
+.rpc-body .player-text-computer .player p,
+.rpc-body .player-text-computer .computer p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.rpc-body .player-options {
+    display: flex;
+}
+
+.rpc-body .player-options .options {
+    display: flex;
+    gap: 50px;
+}
+
+.rpc-body .player-options .options div img {
+    height: 125px;
+    width: 125px;
+}
