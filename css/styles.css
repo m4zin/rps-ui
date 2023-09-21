@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #E1D9D1;
+    background-image: url(/images/wrinkled-paper-background-0lr7oy968evxzqd4.jpg);
 }
 
 .rpc-body {
@@ -44,6 +44,8 @@ body {
 }
 
 .rpc-body .player-text-computer .text p {
+    width: 400px;
+    text-align: center;
     font-family: 'Indie Flower', cursive;
     font-size: 24px;
     font-weight: bold;
