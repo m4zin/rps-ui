@@ -18,6 +18,7 @@ for (let i = 0; i <= 2; i++) {
     let playerSelection = ''
     let computerSelection = randomizeComputerSelection()
 
+    messageRoundWinOrLose.style.color = 'black'
     if(i == 0) 
     {
         playerSelection = 'rock'
