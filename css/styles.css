@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-    height: 500px;
+    height: 600px;
     justify-content: space-between;
 }
 
@@ -58,24 +58,43 @@ body {
 .rpc-body .player-text-computer .player p,
 .rpc-body .player-text-computer .computer p {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-    width: 26px;
-    height: 26px;
+    font-size: 32px;
     text-align: center;
-    border: 2px solid black;
-    border-radius: 50%;
 }
 
 .rpc-body .player-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rpc-body .player-options .options {
     display: flex;
 }
 
 .rpc-body .player-options .options {
     display: flex;
+    margin-bottom: 50px;
     gap: 50px;
 }
 
-.rpc-body .player-options .options div img {
+.rpc-body .player-options .options button {
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.rpc-body .player-options .options button img {
     height: 125px;
     width: 125px;
+}
+
+.rpc-body .player-options button img:hover {
+    transform: scale(1.1);
+}
+
+.rpc-body .player-options .text-for-plays {
+    font-family: 'Indie Flower', cursive;
+    font-size: 32px;
+    font-weight: bold;
 }
